@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>HotelHeaven</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>35I0bZDm3Fs7mq3qxCnoMLYQ1j8=12/14/2021 6:33:28 AM12/14/2021 6:33:27 AM</TimeStamp>
+        <ID>
+          <String>Hotel Heaven</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>rz2mbaN7KdqX10vBs5fTOxSUnSA=12/14/2021 1:35:40 PM12/14/2021 6:53:39 AM</TimeStamp>
+        <ID>
+          <String>Hotel Heaven</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KqjZnMsPgeAjtFTyuDnfjUEuj/I=12/14/2021 12:57:22 PM12/14/2021 6:57:06 AM</TimeStamp>
+        <ID>
+          <String>Amenities</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JPJmXDFa5JDK8tRRFQc8cimnSxM=12/15/2021 12:48:58 AM12/14/2021 1:35:38 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8j+w/wfRrGr3l9W9pAG6h59uZBE=12/15/2021 12:43:01 AM12/15/2021 12:42:48 AM</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HrT1YFD8nRjC1SMA123SlV0qGKg=12/15/2021 12:44:01 AM12/15/2021 12:43:50 AM</TimeStamp>
+        <ID>
+          <String>Guest</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ja+vBW007g2q7XHRzxQ3q5jtgDA=12/15/2021 12:46:06 AM12/15/2021 12:45:55 AM</TimeStamp>
+        <ID>
+          <String>Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BBJDLKMQXcvrq9dMJwqRu8xMJYw=12/15/2021 12:48:05 AM12/15/2021 12:47:01 AM</TimeStamp>
+        <ID>
+          <String>Room Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nZm8m1BmS6IxYsOiW/ze/P0qUVs=12/15/2021 6:32:41 AM12/15/2021 6:31:41 AM</TimeStamp>
+        <ID>
+          <String>Hotel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>QE8R+KfDn565slSFJn1AXiqv9So=12/15/2021 6:32:40 AM12/15/2021 12:51:42 AMUgVlrabCjFb+gGZbdnNFgIR6XaY=12/15/2021 12:51:44 AM12/15/2021 12:51:42 AM</TimeStamp>
+        <ID>
+          <String>Hotel Heaven</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>kCe7acsE9Il6jtAmMhCa3pGUo/w=12/14/2021 6:31:35 AM12/14/2021 6:31:35 AM</TimeStamp>
+      <ID>
+        <String>HotelHeaven</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-12-15T01:02:51.19Z</LastDeployed>
+</DeploymentSnapshot>
